@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-const Card = () => {
+
+const Card = ({mascota}) => {
   return (
     <div>
-      Hi!
+    <h1>Escogiste tu mascota llamada {mascota.nombre} que es un {mascota.animalFav}</h1>
     </div>
   )
 }
