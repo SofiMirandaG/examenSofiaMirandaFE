@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Card from "./Card";
 
 
-
 const Form = () => {
   const [mascota, setMascota] = useState({
     nombre: "",
